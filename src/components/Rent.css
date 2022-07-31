@@ -1,0 +1,44 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    column-gap: 70px;
+    row-gap: 70px;
+    margin: 20px 90px;
+}
+
+.items{
+    border: 1px solid rgb(241, 238, 238);
+    background-color: rgb(241, 238, 238);
+    border-radius: 10px;
+}
+
+span{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h4,p{
+    margin-left: 20px;
+}
+
+p{
+    border-bottom: 1px solid gray;
+}
+
+.info{
+    margin-left: 20px;
+}
+
+input{
+    margin-left: 6%;
+    border-radius: 8px;
+    width: 400px;
+}
